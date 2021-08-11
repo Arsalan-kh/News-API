@@ -10,7 +10,7 @@ window.addEventListener('load', () => { //onload event //
 })
 
 
-let link = `GET https://newsapi.org/v2/everything?q=${category}&apiKey=${API_Key}` //store a api link in to variable
+let link = `GET https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_Key}` //store a api link in to variable
 
 var getNews = (category) => { //declare getNews arrow function and pass the argument, then match the condition when user select the categories
     if (category && category.length !== 0) {
