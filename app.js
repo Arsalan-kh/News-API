@@ -14,7 +14,7 @@ let link = ` https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_Key}` 
 
 const getNews = (category) => { //declare getNews arrow function and pass the argument, then match the condition when user select the categories
     if (category && category.length !== 0) {
-        link = ` https://newsapi.org/v2/top-headlines?q=${category}&country=us&apiKey=${API_Key}`;
+        link = ` GET https://newsapi.org/v2/everything?q=${category}&from=2021-08-11&sortBy=popularity&apiKey=API_Key`;
 
     }
     //Fetching the news //
