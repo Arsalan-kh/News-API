@@ -8,7 +8,11 @@ Build a newsapp using NewsApi it's a simple single page application
 -Bootstrap
 
 ## What does this app do?
-This app fetch a data from NewsAPi
+This app fetch a data from NewsAPi.
+![Uploading 1.PNG…]()
 
-##Live Link:https://arsalan-kh.github.io/News-API/
-##Repo Link:https://github.com/Arsalan-kh/News-API.git
+__Note: In line #1 add your API key__
+
+
+## Live Link:https://arsalan-kh.github.io/News-API/
+## Repo Link:https://github.com/Arsalan-kh/News-API.git
