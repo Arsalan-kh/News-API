@@ -1,4 +1,4 @@
-const API_Key = "3e578a108cb94a90b3c3dc61c4ed4b11" //API key
+const API_Key = "47922b7c921d4d1eb65a1c6411f81774" //API key
 const ShowNews = document.querySelector(".output"); //get a div where our news card been shown//
 const slider = document.querySelector(".slider");
 var News = []; //global array variable where news is stored //
