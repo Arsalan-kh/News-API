@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: #252525ea;
+    font-family: 'Didact Gothic', 'san-serif' !important;
+}
+
+.fa-user {
+    color: #3b3b3b !important;
+    padding: 2px;
+    font-size: 22px !important;
+}
+
+.navbar {
+    background-color: #1f1f1fe5;
+    box-shadow: 0px 1px 2px #2c2c2c3b;
+}
+
+.nav-link {
+    margin: 22px 20px 0 30px;
+    color: #ffffff !important;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #0092a0c2;
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+#filter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    font-family: 'Didact Gothic' !important;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+small {
+    color: #5bc0de;
+    background: #62d4f61a;
+    padding: 2px 18px 2px 12px;
+}
+
+button {
+    border-radius: 30px;
+    background: none;
+    min-width: 12%;
+    letter-spacing: 2px;
+    color: #5bc0de;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 12px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:active {
+    color: #ffffff;
+    background: #5bc0de;
+}
+
+button:focus {
+    color: white;
+    background-color: #5bc0de;
+}
+
+button:hover {
+    background: #6bdaff88;
+    color: #ffffff;
+    transition: 0.4s ease-in;
+}
+
+
+/* .active {
+    background-color: #5bc0de;
+    color: white
+} */
+
+div.card {
+    max-width: 500px;
+    border-radius: 20px;
+    background-color: #1f1f1fe5 !important;
+    height: auto;
+    box-shadow: 0px 20px 66px 1px #6969692f;
+}
+
+.card-img {
+    max-height: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 36px;
+}
+
+p.card-text {
+    color: #d1d1d1;
+}
+
+div.output {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+/* news source link*/
+
+a.news-source {
+    position: relative;
+    top: 60%;
+    left: 5%;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-decoration: none;
+    line-height: 12px;
+    padding: 10px 12px 10px 12px;
+    color: #ffffff;
+}
+
+a.news-source::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #0092a0c2;
+    transition: width .5s;
+}
+
+a.news-source:hover::after {
+    width: 30%;
+}
+
+i.fa-bookmark-o {
+    float: right;
+    color: #5bc0de;
+    margin: 0px 30px 0 0;
+}
