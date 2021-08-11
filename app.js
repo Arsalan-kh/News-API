@@ -12,7 +12,7 @@ window.addEventListener('load', () => { //onload event //
 
 let link = `GET https://newsapi.org/v2/everything?q=${category}&apiKey=${API_Key}` //store a api link in to variable
 
-const getNews = (category) => { //declare getNews arrow function and pass the argument, then match the condition when user select the categories
+let getNews = (category) => { //declare getNews arrow function and pass the argument, then match the condition when user select the categories
     if (category && category.length !== 0) {
         link = ` GET https://newsapi.org/v2/everything?q=${category}&apiKey=${API_Key}`;
 
@@ -33,7 +33,7 @@ const getNews = (category) => { //declare getNews arrow function and pass the ar
 
 }
 
-const RenderNews = () => { //decleared RenderNews function//
+let RenderNews = () => { //decleared RenderNews function//
     ShowNews.innerHTML = ""; //we assing it empty string so that it does not duplicates news when we click a button on multiple time//
     News.forEach(articles => { //then we loop through News ad finally innerHtml our card structure and style//
 
