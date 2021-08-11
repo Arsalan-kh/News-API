@@ -10,11 +10,11 @@ window.addEventListener('load', () => { //onload event //
 })
 
 
-let link = ` https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_Key}` //store a api link in to variable
+let link = `GET https://newsapi.org/v2/everything?q=${category}&apiKey=${API_Key}` //store a api link in to variable
 
 const getNews = (category) => { //declare getNews arrow function and pass the argument, then match the condition when user select the categories
     if (category && category.length !== 0) {
-        link = ` GET https://newsapi.org/v2/everything?q=${category}&from=2021-08-11&sortBy=popularity&apiKey=API_Key`;
+        link = ` GET https://newsapi.org/v2/everything?q=${category}&apiKey=${API_Key}`;
 
     }
     //Fetching the news //
