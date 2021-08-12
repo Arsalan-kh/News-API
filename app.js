@@ -29,7 +29,7 @@ var getNews = (category) => { //declare getNews arrow function and pass the argu
     }).catch((err) => { //this one catch the error //
         console.log(err);
 
-    })
+    });
 
 }
 
